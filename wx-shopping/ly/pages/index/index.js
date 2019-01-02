@@ -8,6 +8,14 @@ Page({
       wx.navigateTo({
         url: '/pages/shoplist/shoplist',
       })
+    }else if(id==9){
+      wx.navigateTo({
+        url:'/pages/product/product'
+      })
+    }else if(id==2){
+      wx.navigateTo({
+        url: '/pages/periphery/periphery',
+      })
     }
   },
   /**
@@ -15,20 +23,20 @@ Page({
    */
   data: {
     list:[
-      {id:1,img_url:"http://127.0.0.1:3000/img/banner1.jpg"},
-      {id:2,img_url:"http://127.0.0.1:3000/img/banner2.jpg"},
-      {id:3,img_url:"http://127.0.0.1:3000/img/banner3.jpg"}
+      {id:1,img_url:"../static/banner1.jpg"},
+      { id: 2, img_url:"../static/banner2.jpg"},
+      { id: 3, img_url:"../static/banner3.jpg"}
     ],
     navlist:[
-      { id: 1, img_url: "http://127.0.0.1:3000/icons/grid-01.png", title: "饮食"},
-      { id: 2, img_url: "http://127.0.0.1:3000/icons/grid-03.png", title: "情侣"},
-      { id: 3, img_url: "http://127.0.0.1:3000/icons/grid-04.png", title: "唱歌"},
-      { id: 4, img_url: "http://127.0.0.1:3000/icons/grid-05.png", title: "找工作"},
-      { id: 5, img_url: "http://127.0.0.1:3000/icons/grid-06.png", title: "辅导班"},
-      { id: 6, img_url: "http://127.0.0.1:3000/icons/grid-07.png", title: "汽车保养"},
-      { id: 7, img_url: "http://127.0.0.1:3000/icons/grid-08.png", title: "租房"},
-      { id: 8, img_url: "http://127.0.0.1:3000/icons/grid-09.png", title: "装修" },
-      { id: 9, img_url: "http://127.0.0.1:3000/icons/grid-02.png", title: "更多"}
+      { id: 1, img_url: "../static/meishi.png", title: "美食"},
+      { id: 2, img_url: "../static/zhoubianyou.png", title: "周边游"},
+      { id: 3, img_url: "../static/yeying.png", title: "野营"},
+      { id: 4, img_url: "../static/xiari.png", title: "避暑圣地"},
+      { id: 5, img_url: "../static/chonglang.png", title: "冲浪"},
+      { id: 6, img_url: "../static/hhyt.png", title: "豪华游轮"},
+      { id: 7, img_url: "../static/pwcx.png", title: "票务查询"},
+      { id: 8, img_url: "../static/jiudian.png", title: "酒店预订" },
+      { id: 9, img_url: "../static/shangcheng.png", title: "周边商城"}
     ]
   },
 

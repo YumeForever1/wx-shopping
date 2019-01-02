@@ -1,7 +1,37 @@
 <!--pages/message/message.wxml-->
 <view class="card">
-<text class="card-title">年终大奖</text>
-<text class="card-date">2018-12-25</text>
-<text class="card-desc">我看过最美的风景 是你</text>
-<text class="card-rad arrow">查看详细</text>
+  <text class="card-title">用户名：tom</text>
+  <text class="card-date">2018-12-25</text>
+  <text class="card-desc">我看过最美的风景 是你</text>
+  <text class="card-rad arrow">查看详细</text>
+</view>
+<view class="card">
+  <text class="card-title">用户名：jerry</text>
+  <text class="card-date">2018-12-26</text>
+  <text class="card-desc">我看过最美的风景 是你</text>
+  <text class="card-rad arrow">查看详细</text>
+</view>
+<view class="card">
+  <text class="card-title">用户名：jooker</text>
+  <text class="card-date">2018-12-25</text>
+  <text class="card-desc">我看过最美的风景 是你</text>
+  <text class="card-rad arrow">查看详细</text>
+</view>
+<view class="card">
+  <text class="card-title">用户名：hanmeimei</text>
+  <text class="card-date">2018-12-25</text>
+  <text class="card-desc">我看过最美的风景 是你</text>
+  <text class="card-rad arrow">查看详细</text>
+</view>
+<view class="card">
+  <text class="card-title">匿名用户</text>
+  <text class="card-date">2018-12-25</text>
+  <text class="card-desc">我看过最美的风景 是你</text>
+  <text class="card-rad arrow">查看详细</text>
+</view>
+<view class="card">
+  <text class="card-title">匿名用户</text>
+  <text class="card-date">2018-12-25</text>
+  <text class="card-desc">我看过最美的风景 是你</text>
+  <text class="card-rad arrow">查看详细</text>
 </view>

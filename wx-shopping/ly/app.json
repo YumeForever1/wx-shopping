@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/periphery/periphery",
     "pages/message/message",
-    "pages/profile/profile",
-    "pages/product/product",
+    "pages/logs/logs",
     "pages/shoplist/shoplist",
-    "pages/logs/logs"
+    "pages/product/product",
+    "pages/profile/profile"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,7 +24,7 @@
       },
       {
         "pagePath": "pages/message/message",
-        "text": "咨询",
+        "text": "留言板",
         "iconPath": "pages/static/message.png",
         "selectedIconPath": "pages/static/message-active.png"
       },

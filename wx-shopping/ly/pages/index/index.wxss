@@ -12,6 +12,10 @@
   justify-content:center;
   align-items: center;
 }
+.nav-item-text{
+  font-size:14px;
+  color:#999;
+}
 .nav-item{
   width:33.33333%;
   height:200rpx;

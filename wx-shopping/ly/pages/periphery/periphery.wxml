@@ -1,0 +1,12 @@
+<!--pages/periphery/periphery.wxml-->
+<!--周边游列表-->
+<view class="shop" wx:for="{{list}}" wx:key="index">
+  <image src="../static/gallery.jpg" class="shop-img"></image>
+  <view class="shop-info">
+    <text class="shop-title ell">出发地点：{{item.name}}</text>
+    <text class="shop-tel">咨询电话：{{item.tel}}</text>
+    <text class="shop-address">目的地点：{{item.addr}}</text>
+    <text class="shop-time">适合季节：{{item.mtime}}</text>
+    <view class="star-after">推荐指数 ：<span>★★★★★</span></view>
+  </view>
+</view>

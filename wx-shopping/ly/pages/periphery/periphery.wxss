@@ -1,0 +1,37 @@
+/* pages/periphery/periphery.wxss */
+/* 组件白色背景 */
+page{
+  background-color: #fff;
+  border:1px solid #f00;
+}
+/*当前商品条目*/
+.shop-info{
+  padding:20rpx;
+  border-bottom: 1rpx solid #ddd;
+  display:flex;
+  position:relative;
+}
+/*当前商品图片*/
+.shop-img{
+  width:100%;
+  margin-right: 20rpx;
+}
+.shop-info{
+  width:520rpx;
+  font-size:16px;
+  color:#666;
+  display:flex;
+  flex-direction: column;
+  line-height:1.5;
+}
+.shop-title{
+  font-size:16px;
+  color:#333;
+  width:380rpx;
+}
+.star-after{
+  color:#333;
+}
+.star-after>span{
+  color:#f19e38;
+}
